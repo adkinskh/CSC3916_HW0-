@@ -1,0 +1,12 @@
+{  
+	data: response.data,
+	//this will give the bit information
+	status: response.status,
+	//this returns the status in computer form 
+	statusText: response.statusText,
+	//this retuns the status for people
+	headers: response.headers,
+	//this is the status for the headers
+	requestHeader: response.config.headers 
+	//this is the location of the headers
+}
