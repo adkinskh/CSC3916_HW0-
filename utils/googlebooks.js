@@ -8,6 +8,7 @@ module.exports = async (phrase) => {
         }
     });
 
+    //I love to code
     //return JSON.stringify(results.data);
     var formattedObject = {
         data: results.data,
@@ -20,7 +21,7 @@ module.exports = async (phrase) => {
         //this is the status for the headers
         requestHeader: results.config.headers
         //this is the location of the headers
-    }
+    };
 
     return JSON.stringify(formattedObject);
 
