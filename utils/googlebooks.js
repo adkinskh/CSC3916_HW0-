@@ -9,6 +9,7 @@ module.exports = async (phrase) => {
     });
 
     //I love to code
+    //now I will see if it uploads automatically
     //return JSON.stringify(results.data);
     var formattedObject = {
         data: results.data,
