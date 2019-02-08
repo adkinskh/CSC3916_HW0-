@@ -9,7 +9,7 @@ module.exports = async (phrase) => {
     });
 
     //return JSON.stringify(results.data);
-    return {
+    var formattedObject = {
         data: results.data,
         //this will give the bit information
         status: results.status,
@@ -21,6 +21,9 @@ module.exports = async (phrase) => {
         requestHeader: results.config.headers
         //this is the location of the headers
     }
+
+    return JSON.stringify(formattedObject);
+
 };
 
 /*  console.log(results.data);
